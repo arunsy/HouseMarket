@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# House Market (Surprise Housing)
+> Build the model with the available independent variables and help the management to understand how exactly the prices vary with these variables when entering new market.
 
 
 ## Table of Contents
@@ -11,39 +11,49 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Business problem is predict and set the price of houses with the available independent variables and help the management to understand how exactly the prices vary with the variables. So management can set the strategy of the firm and concentrate on areas that will yield high returns as well as understand the pricing dynamics of a new market.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- train.csv dataset has used to analyse this scenario.
+
+<!-- You don't have to answer all the questions - the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- We analysed the factors affecting the sale price of houses on new market using Linear regresssion, Ridge and Lasso regression models. We evaluated the model based on R2, RSS & RSME metric.
 
+- From Ridge model, we can predict the results with approx 72% variance on the unseen data. We identified the few variables which has high impact on setting the sale price of the house.
+
+    - > Ground living area
+    - > Overall condition, material & finish of the house
+    - > First floor and Second floor
+    - > Total basement area
+    - > North ridge and North ridge heights neighborhood
+    - > Wood shingle roofs
+    - > Basement Type-1 finish
+    - > Good exposure to walkout and green level walls
+    - > Lot areasize
+    - > Masonry veneer area
+    - > Original construction date
+    - > Size of garage in car capacity
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- JupyterLab 3.3.2
+- Python 3.9.12
+- Pandas
+- Matplotlib
+- Seaborn
+- SciKit-Learn
+- Stats Models
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+<!-- As the libraries versions keep on changing, it recommends to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project inspired by Surprise Housing (House Resale platform).
 
+<br>
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
+> Documented by [@arunsy](http://github.com/arunsy) - feel free to contact me!
 
 <!-- Optional -->
 <!-- ## License -->

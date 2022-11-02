@@ -1,0 +1,6 @@
+House Market Assignment is shared on this GitHub path: https://github.com/arunsy/HouseMarket
+
+Following files are shared in this repository.
+- MLC42_Arun.G_HouseMarket.ipynb (Python Notebook)
+- Advanced-Regression-Subjective-Answers.pdf (PDF format)
+- README.md
